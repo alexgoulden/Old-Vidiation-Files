@@ -1,0 +1,382 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"padding",
+				"padding-top\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"res",
+				"resultImg"
+			],
+			[
+				"mysqli_fet",
+				"mysqli_fetch_assoc"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"t",
+				"type\tAttr"
+			],
+			[
+				"font",
+				"font-weight\tproperty"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"tra",
+				"transition\tproperty"
+			],
+			[
+				"tran",
+				"translateY()\ttransform"
+			],
+			[
+				"trans",
+				"translateY"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"ham",
+				"hamburger-menu"
+			],
+			[
+				"ha",
+				"hamburger-menu"
+			],
+			[
+				"inde",
+				"index_files"
+			],
+			[
+				"sid",
+				"sidebarCollapse"
+			],
+			[
+				"inline",
+				"inline-block\tdisplay"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"w",
+				"width\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 165.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/userimages"
+	],
+	"file_history":
+	[
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/userimages/resize.php",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/upload-files/includes/signup.inc.php",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/upload-files/includes/dbh.inc.php",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/upload-files/index.php",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/upload-files/dbh.php",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/upload-files/logout.php",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/upload-files/login.php",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/upload-files/upload.php",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/upload-files/signup.php",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/upload-files/style.css",
+		"/D/Alex/Applications/XAMPP/htdocs/media-player test/temp/media-player.html",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/loginsystem/includes/login.inc.php",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/loginsystem/includes/dbh.inc.php",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/loginsystem/header.php",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/loginsystem/signup.php",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/loginsystem/index.php",
+		"/C/Users/thesi/Downloads/sidebar/volume-slider/css/style.css",
+		"/C/Users/thesi/Downloads/index.js",
+		"/C/Users/thesi/Downloads/index.html",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/loginsystem/style.css",
+		"/C/Users/thesi/Downloads/sidebar/hamburger-menu-animation-with-velocity-js/index.html",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/index_files/hamburger-menu.js",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/index_files/mynav.css",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/index.php",
+		"/C/Users/thesi/Downloads/sidebar/hamburger-menu-animation-with-velocity-js/js/index.js",
+		"/C/Users/thesi/Downloads/sidebar/hamburger-menu-animation-with-velocity-js/css/style.css",
+		"/C/Users/thesi/Downloads/html5-237/HTML5/code/media-player.js",
+		"/C/Users/thesi/Downloads/html5-237/HTML5/code/media-player.css",
+		"/C/Users/thesi/Downloads/html5-237/HTML5/code/media-player.html",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/media-player index.php",
+		"/C/Users/thesi/Desktop/media-player.html",
+		"/C/Users/thesi/Desktop/index.php",
+		"/C/Users/thesi/Desktop/index.php.html",
+		"/C/Users/thesi/Desktop/index",
+		"/C/Users/thesi/Desktop/videoplayer.html",
+		"/C/Users/thesi/Downloads/sidebar/index2.html",
+		"/C/Users/thesi/Downloads/sidebar/style2.css",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/test 2/index_files/bootstrap-core.css",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/test 2/index_files/bootstrap.min.css",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/test 2/index_files/navbar-top-fixed.css",
+		"/C/Users/thesi/Downloads/sidebar/style.css",
+		"/C/Users/thesi/Downloads/hamburger-menu-animation-with-velocity-js/css/style.css",
+		"/C/Users/thesi/Downloads/sidebar/style5.css",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/test 2/index.php",
+		"/C/Users/thesi/Downloads/testing java bullshit.js",
+		"/C/Users/thesi/Downloads/sidebar/asrt/style2.css",
+		"/C/Users/thesi/Downloads/sidebar/asrt/index2.html",
+		"/C/Users/thesi/Downloads/testing java bullshit",
+		"/C/Users/thesi/Downloads/sidebar/index5.html",
+		"/C/Users/thesi/Downloads/sidebar/sidebar/index.html",
+		"/C/Users/thesi/Downloads/sidebar/index.html",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/sidebar.html",
+		"/C/Users/thesi/Downloads/sidebar/working/sidebar-style.css",
+		"/C/Users/thesi/Downloads/sidebar/working/sidebar.html",
+		"/C/Users/thesi/Downloads/sidebar/working/index.html",
+		"/C/Users/thesi/Downloads/sidebar/working/sidebar.css",
+		"/C/Users/thesi/Downloads/sidebar/working/index5.html",
+		"/C/Users/thesi/Downloads/sidebar/working/style5.css",
+		"/C/Users/thesi/Downloads/sidebar/working/style3.css",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/testing navbar/index.php",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/testing navbar/Test 2/index.php",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/testing navbar/Test 2/dropdown-menu/index.html",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/testing navbar/Test 2/dropdown-menu/css/style.css",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/testing navbar/Test 2/index_files/style.css",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/testing navbar/Test 2/dropdown-menu/less/style.less",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/testing navbar/Test 2/dropdown-menu/less/style.css",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/testing navbar/Test 2/index_files/index.js",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/testing navbar/Test 2/dropdown-menu/js/index.js",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/testing navbar/Test 2/hamburger-menu-animation-with-velocity-js/index.html",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/testing navbar/Test 2/hamburger-menu-animation-with-velocity-js/js/index.js",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/testing navbar/Test 2/hamburger-menu-animation-with-velocity-js/less/style.less",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/testing navbar/Test 2/hamburger-menu-animation-with-velocity-js/less/style.css",
+		"/C/Users/thesi/Downloads/animiated-hamburger-menu/index.html",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/index_files/style.css",
+		"/D/Alex/Applications/XAMPP/htdocs/Vidiation/jquery-3.3.1.js",
+		"/D/Alex/Applications/XAMPP/htdocs/Vidiation/testing navbar/index_files/bootstrap-core.css",
+		"/C/Users/thesi/Downloads/animiated-hamburger-menu/css/style.css",
+		"/C/Users/thesi/Downloads/animiated-hamburger-menu/js/index.js",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/testing navbar/index_files/mynav.css",
+		"/D/Alex/Applications/XAMPP/htdocs/Vidiation/testing navbar/index.php",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/testing navbar/index_files/custom.js",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/testing navbar/index_files/mystyle.css",
+		"/D/Alex/Applications/XAMPP/htdocs/Vidiation/loginsystem/header.php",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/testing navbar/bootstrap.min.css",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/testing navbar/bootstrap-core.css",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/testing navbar/navbar-top-fixed.css",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/testing navbar/style.css",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/index_files/bootstrap-core.css",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/testing navbar/index.html",
+		"/D/Alex/Applications/XAMPP/htdocs/Vidiation/index_files/mynavbar.css",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/index_files/my-style.css",
+		"/D/Alex/Applications/XAMPP/htdocs/Vidiation/css/bootstrap.css",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/index_files/navbar-top-fixed.css",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/thesi/Downloads/Bare - Start Bootstrap Template_files/bootstrap.bundle.min.js.download",
+		"/C/Users/thesi/Downloads/Bare - Start Bootstrap Template_files/jquery.min.js.download",
+		"/C/Users/thesi/Downloads/Bare - Start Bootstrap Template_files/bootstrap.min.css",
+		"/C/Users/thesi/Downloads/Starter Template for Bootstrap_files/bootstrap.min.css",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/index_files/bootstrap.min.css",
+		"/C/Users/thesi/Downloads/Starter Template for Bootstrap_files/starter-template.css",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/index_files/popper.min.js.download",
+		"/C/Users/thesi/Downloads/index.php",
+		"/C/Users/thesi/Downloads/Starter Template for Bootstrap_files/popper.min.js.download",
+		"/C/Users/thesi/Downloads/Starter Template for Bootstrap.html",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/jquery-3.3.1.js",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/bs1.html",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/index.html",
+		"/C/Users/thesi/OneDrive/Vidiation/Vidiation/index.php",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/templates/index.php",
+		"/D/Alex/Applications/XAMPP/htdocs/vidiation/public/.htaccess",
+		"/D/Alex/Applications/XAMPP/apache/conf/extra/httpd-vhosts.conf",
+		"/D/Alex/Applications/XAMPP/htdocs/Vidiation/public/index.php",
+		"/D/Alex/Applications/XAMPP/htdocs/Vidiation/app/views/home.twig",
+		"/D/Alex/Applications/XAMPP/htdocs/Vidiation/app/bootstrap.php",
+		"/D/Alex/Applications/XAMPP/htdocs/Vidiation/index.php",
+		"/D/Alex/Applications/XAMPP/htdocs/Vidiation/index.twig"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"jpg",
+			"upload",
+			".inc",
+			"inludes",
+			"inlude"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "userimages.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"jqu",
+				"jquery-3.3.1.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 164.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

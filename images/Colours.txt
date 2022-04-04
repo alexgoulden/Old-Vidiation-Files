@@ -1,0 +1,8 @@
+Black: #000000
+Reel White: #FEFEFE
+Ball top red: #EE1A54
+Acre Grass Green: #31AC62
+Horizon Blue: #3A75D9
+TFB Secondary: #3060B2
+TFB Secondary Light: #557CC0
+vidiation RGB mixed: #736985

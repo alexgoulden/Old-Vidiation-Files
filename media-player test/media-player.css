@@ -1,0 +1,174 @@
+/* Google Icons */
+.material-icons {
+	font-size: 38px;
+	color: white;
+}
+
+
+.container {
+	display: flex;
+	background: #ccc;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.video {
+	width: 100%
+}
+
+.c-video {
+	width: 100%;
+	max-width: 800px;
+	position: relative;
+	overflow: hidden;
+}
+
+.c-video:hover .controls {
+	transform: translateY(0);
+}
+
+.controls {
+	display: flex;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	flex-wrap: wrap;
+	background: rgba(0, 0, 0, 0.3);
+	transform: translateY(100%) translateY(-5px);
+	transition: all 0.2s;
+}
+
+.buttons {
+	padding: 10px;
+}
+
+.buttons button {
+	background: none;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+}
+
+.vol-range {
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s, opacity 0.5s linear;
+}
+
+#volume-up:hover .vol-range {
+	visibility: visible;
+	opacity: 1;
+}
+
+/* volume */
+#vol-slider{
+	display: inline-block;
+}
+input[type=range].vol-range {
+  -webkit-appearance: none;
+  width: 50%;
+  margin: 5.75px 0;
+  background: transparent;
+}
+input[type=range].vol-range:focus {
+  outline: none;
+}
+input[type=range].vol-range::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 5.5px;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+  background: #000000;
+  border-radius: 25px;
+  border: 0px solid rgba(0, 0, 0, 0.99);
+}
+input[type=range].vol-range::-webkit-slider-thumb {
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+  border: 2px solid #000000;
+  height: 17px;
+  width: 17px;
+  border-radius: 50px;
+  background: #ee1a54;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -5.75px;
+}
+input[type=range].vol-range:focus::-webkit-slider-runnable-track {
+  background: #000000;
+}
+input[type=range].vol-range::-moz-range-track {
+  width: 100%;
+  height: 5.5px;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+  background: #000000;
+  border-radius: 25px;
+  border: 0px solid rgba(0, 0, 0, 0.99);
+}
+input[type=range].vol-range::-moz-range-thumb {
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+  border: 2px solid #000000;
+  height: 17px;
+  width: 17px;
+  border-radius: 50px;
+  background: #ee1a54;
+  cursor: pointer;
+}
+input[type=range].vol-range::-ms-track {
+  width: 100%;
+  height: 5.5px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type=range].vol-range::-ms-fill-lower {
+  background: #000000;
+  border: 0px solid rgba(0, 0, 0, 0.99);
+  border-radius: 50px;
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+}
+input[type=range].vol-range::-ms-fill-upper {
+  background: #000000;
+  border: 0px solid rgba(0, 0, 0, 0.99);
+  border-radius: 50px;
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+}
+input[type=range].vol-range::-ms-thumb {
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+  border: 2px solid #000000;
+  height: 17px;
+  width: 17px;
+  border-radius: 50px;
+  background: #ee1a54;
+  cursor: pointer;
+  height: 5.5px;
+}
+input[type=range].vol-range:focus::-ms-fill-lower {
+  background: #000000;
+}
+input[type=range].vol-range:focus::-ms-fill-upper {
+  background: #000000;
+}
+
+
+
+
+
+.blue-bar {
+	height: 10px;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #3A75D9;
+}
+
+.green-juice {
+	height: 10px;
+	background-color: #31AC62;
+}
+
+.vjs-default-skin .vjs-volume-control { 
+	display: none; 
+}

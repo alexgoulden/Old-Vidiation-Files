@@ -1,0 +1,17 @@
+<div class="container">
+   <div class="c-video">
+      <video class="video" id="media" src="homey.webm"></video>
+      <div class="controls">
+         <div class="blue-bar">
+            <div class="green-juice"></div>
+         </div>
+         <div class="buttons">
+            <i class="material-icons" id="play-pause">play_arrow</i>
+            <i class="material-icons" id="volume-up">volume_up
+               <input type="range" class="vol-range" id="vol-slider" min="0" max="100" step="1" value="100" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)"></input>
+            </i>
+            <i class="material-icons" id="fullscreen/exit">fullscreen</i>
+         </div>
+      </div>
+   </div>
+</div>

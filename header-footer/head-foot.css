@@ -1,0 +1,240 @@
+/* Hamburger Menu */
+.McButton {
+    position: relative;
+    width: 44px;
+    height: 33px;
+    margin-top: 25px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.McButton b {
+    position: absolute;
+    width: 44px;
+    height: 4px;
+    background-color: white;
+}
+
+.McButton b:nth-child(1) {
+    top: 0;
+}
+
+.McButton b:nth-child(2) {
+    top: 50%;
+}
+
+.McButton b:nth-child(3) {
+    top: 100%;
+}
+/* McButton */
+/* Sidebar */
+
+.sidebar-main a,
+.sidebar-main a:hover,
+.sidebar-main a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.sidebar-main .navbar {
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-main .navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+.sidebar-main .line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #31AC62;
+    color: #fff;
+    transition: all 0.3s;
+	padding-top: 100px;
+	font-family: Roboto , Arial, "sans-serif";
+	font-weight: 300;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+
+#sidemenu li a:hover {
+    color: #fff;
+	padding-left: 20px;
+	background: #3A75D9;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color: #fff;
+	background: #3A75D9;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #fff;
+    background: #3060B2;
+}
+
+#sidebar ul li ul li a {
+	color: #fff;
+	padding-left: 20px;
+}
+
+#sidebar ul li ul li a:hover {
+	color: #fff;
+	padding-left: 40px;
+	background: #557CC0;
+}
+
+.sidebar-main a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.sidebar-main .dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+ul .sidebar-main, ul .sidebar-main, a .sidebar-main {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #6d7fcc;
+}
+
+ul.CTAs {
+    padding: 20px;
+}
+
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+a.article,
+a.article:hover {
+    color: #fff;
+}
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+    width: calc(100% - 250px);
+    padding: 40px;
+    min-height: 100vh;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#content.active {
+    width: 100%;
+}
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #content {
+        width: 100%;
+    }
+    #content.active {
+        width: calc(100% - 250px);
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+}
+
+/* End of Sidebar */
+
+.navbar {
+	background-color: #3A75D9;
+}
+
+.nav-text {
+	color: #FEFEFE;
+}
+
+.dropdown {
+	padding-top: 50px;
+}
+
+.navbar-brand {
+	height: auto;
+    width: auto;
+    max-height: 92px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.active {
+	display: inline-block;
+}
+
+.img-responsive {
+	height: 100px;
+	position: relative;
+}
+
+/* Other Styles */
